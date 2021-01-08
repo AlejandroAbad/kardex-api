@@ -23,7 +23,7 @@ public class ApiKardex
 	public static void main(String... args)
 	{
 		L.traceEntry("{}", (Object[]) args);
-		L.info("Starting Winplus API");
+		L.info("Inciando servidor API de Kardex");
 
 		Configuration.load();
 
