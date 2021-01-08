@@ -1,4 +1,4 @@
-package es.hefame.kardexapi.httpcontroller.prtg;
+package es.hefame.kardex.httpcontroller.prtg;
 
 import java.io.IOException;
 

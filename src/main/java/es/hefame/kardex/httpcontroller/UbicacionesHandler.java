@@ -1,4 +1,4 @@
-package es.hefame.kardexapi.httpcontroller;
+package es.hefame.kardex.httpcontroller;
 
 import java.io.IOException;
 
@@ -9,7 +9,7 @@ import es.hefame.hcore.JsonEncodable;
 import es.hefame.hcore.HException;
 import es.hefame.hcore.http.HttpController;
 import es.hefame.hcore.http.exchange.HttpConnection;
-import es.hefame.kardexapi.datastructure.ListaUbicaciones;
+import es.hefame.kardex.datastructure.ListaUbicaciones;
 
 public class UbicacionesHandler extends HttpController {
 	private static Logger L = LogManager.getLogger();

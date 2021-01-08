@@ -1,4 +1,4 @@
-package es.hefame.kardexapi;
+package es.hefame.kardex;
 
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;

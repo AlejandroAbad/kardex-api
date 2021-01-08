@@ -1,4 +1,4 @@
-package es.hefame.kardexapi.configuration;
+package es.hefame.kardex.configuration;
 
 import java.io.FileReader;
 import java.io.Reader;

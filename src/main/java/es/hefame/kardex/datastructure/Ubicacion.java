@@ -1,4 +1,4 @@
-package es.hefame.kardexapi.datastructure;
+package es.hefame.kardex.datastructure;
 
 import org.json.simple.JSONObject;
 

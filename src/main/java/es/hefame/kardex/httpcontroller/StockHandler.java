@@ -1,4 +1,4 @@
-package es.hefame.kardexapi.httpcontroller;
+package es.hefame.kardex.httpcontroller;
 
 import java.io.IOException;
 
@@ -10,8 +10,8 @@ import es.hefame.hcore.JsonEncodable;
 import es.hefame.hcore.HException;
 import es.hefame.hcore.http.HttpController;
 import es.hefame.hcore.http.exchange.HttpConnection;
-import es.hefame.kardexapi.datastructure.Stock;
-import es.hefame.kardexapi.datastructure.StockLine;
+import es.hefame.kardex.datastructure.Stock;
+import es.hefame.kardex.datastructure.StockLine;
 
 public class StockHandler extends HttpController
 {

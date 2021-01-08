@@ -1,4 +1,4 @@
-package es.hefame.kardexapi;
+package es.hefame.kardex;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -9,11 +9,11 @@ import org.apache.logging.log4j.Logger;
 import es.hefame.hcore.http.HttpController;
 import es.hefame.hcore.http.server.HttpService;
 import es.hefame.hcore.http.server.HttpsService;
-import es.hefame.kardexapi.configuration.Configuration;
-import es.hefame.kardexapi.httpcontroller.StockHandler;
-import es.hefame.kardexapi.httpcontroller.UbicacionesHandler;
-import es.hefame.kardexapi.httpcontroller.prtg.PrtgJVMHandler;
-import es.hefame.kardexapi.httpcontroller.prtg.PrtgOracleHandler;
+import es.hefame.kardex.configuration.Configuration;
+import es.hefame.kardex.httpcontroller.StockHandler;
+import es.hefame.kardex.httpcontroller.UbicacionesHandler;
+import es.hefame.kardex.httpcontroller.prtg.PrtgJVMHandler;
+import es.hefame.kardex.httpcontroller.prtg.PrtgOracleHandler;
 import es.hefame.hcore.oracle.DBConnection;
 
 public class ApiKardex
