@@ -1,0 +1,12 @@
+{
+	"http_port": 8123,
+	"http_max_connections": 3,
+	"ssl_enable": true,
+	"ssl_keystore": "../httpskeys.jks",
+	"ssl_passphrase": "lapass",
+	"oracle_tns": "(DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=orakardex.hefame.es)(PORT=1521))(CONNECT_DATA=(SERVICE_NAME=KARDEX)))",
+	"oracle_user": "kardex",
+	"oracle_pass": "whatever",
+	"log_retention_days": 7
+	
+}
